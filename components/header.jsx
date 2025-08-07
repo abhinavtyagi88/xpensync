@@ -29,21 +29,21 @@ const Header = async () => {
         <div className="hidden md:flex items-center space-x-8">
           <SignedOut>
              <div className="flex space-x-4 bg-dark-700 p-2 rounded-md">
-  <a
-    href="#features"
-    className="px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-500"
-  >
-    Features
-  </a>
-
-  <a
-    href="#testimonials"
-    className="px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-500"
-
-  >
-    Testimonials
-  </a>
-</div>
+                <a
+                  href="#features"
+                  className="px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-500"
+                >
+                  Features
+                </a>
+                
+                <a
+                  href="#testimonials"
+                  className="px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-500"
+                
+                >
+                  Testimonials
+                </a>
+              </div>
    
           </SignedOut>
         </div>
