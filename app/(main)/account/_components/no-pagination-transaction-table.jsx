@@ -346,7 +346,7 @@ export function NoPaginationTransactionTable({ transactions }) {
                         : "text-green-500"
                     )}
                   >
-                    {transaction.type === "EXPENSE" ? "-" : "+"}$
+                    {transaction.type === "EXPENSE" ? "-" : "+"}₹₹Next Date
                     {transaction.amount.toFixed(2)}
                   </TableCell>
                   <TableCell>
