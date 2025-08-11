@@ -111,12 +111,12 @@ const LandingPage = () => {
 
       {/* Testimonials Section */}
       <section id="testimonials " className="py-20">
-        <div className="text-center max-w-5xl text-4xl font-bold">What Our Users Say </div>
+        {/* <div className="text-center max-w-5xl  font-bold">What Our Users Say </div> */}
 
         <div className="container  px-4">
-          {/* <h2 className="text-3xl font-bold text-center mb-16">
+          <h2 className="text-3xl font-bold text-4xl text-center">
             What Our Users Say
-          </h2> */}
+          </h2>
            <AnimatedTestimonials testimonials={testimonials} />;
         </div>
       </section>
