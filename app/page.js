@@ -110,9 +110,10 @@ const LandingPage = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials relative " className="py-20">
-        <div className="container absolute left-40 text-4xl font-bold">What Our Users Say </div>
-        <div className="container mx-auto px-4">
+      <section id="testimonials " className="py-20">
+        <div className="text-center max-w-5xl text-4xl font-bold">What Our Users Say </div>
+
+        <div className="container  px-4">
           {/* <h2 className="text-3xl font-bold text-center mb-16">
             What Our Users Say
           </h2> */}

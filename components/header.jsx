@@ -11,14 +11,14 @@ const Header = async () => {
 
   return (
     <header className="fixed top-0 w-full bg-white dark:bg-neutral-900 backdrop-blur-sm z-50 border-b border-neutral-200">
-      <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <nav className="container mx-auto px-4 py-2 flex items-center justify-between">
         <Link href="/">
           <div className="flex items-center">
             <img
               src="/image.png"
               alt="logo"
-              width={200}
-              height={100}
+              width={150}
+              height={70}
               className="rounded-xl"
             />
             {/* <span className="text-2xl font-bold">XPENSYNC</span> */}
